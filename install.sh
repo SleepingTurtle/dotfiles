@@ -14,3 +14,6 @@ ln -s dotfiles/.bash_aliases ~/
 ln -s dotfiles/.bash_exports ~/
 ln -s dotfiles/.vimrc ~/
 ln -s dotfiles/.tmux.conf ~/
+
+mkdir -p ~/.vim/colors
+ln -s .vim/colors/brogrammer.vim ~/.vim/colors/
